@@ -6,7 +6,9 @@
   "repository": "git@github.com:rimiti/chromestart.git",
   "author": "Dimitri DO BAIRRO <dimitri.dobairro@dimsolution.com>",
   "license": "MIT",
-  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "chromestart": "./src/cli.js"
   },
