@@ -6,6 +6,9 @@
   "repository": "git@github.com:rimiti/chromestart.git",
   "author": "Dimitri DO BAIRRO <dimitri.dobairro@dimsolution.com>",
   "license": "MIT",
+  "bin": {
+    "chromestart": "./src/cli.js"
+  },
   "dependencies": {
     "phylo": "1.0.0-rc.4",
     "commander": "13.1.0"
