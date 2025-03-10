@@ -2,15 +2,13 @@
   "name": "@rimiti/chromestart",
   "version": "1.0.0",
   "description": "Open Google Chrome / Canary / Chromium Profiles with args",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "bin": "dist/cli.js",
   "repository": "git@github.com:rimiti/chromestart.git",
   "author": "Dimitri DO BAIRRO <dimitri.dobairro@dimsolution.com>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
-  },
-  "bin": {
-    "chromestart": "./src/cli.js"
   },
   "dependencies": {
     "phylo": "1.0.0-rc.4",
