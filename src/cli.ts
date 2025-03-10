@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { Command } from 'commander';
 import { getProfiles, EVariant } from './browser';
 import { exec } from 'child_process';
