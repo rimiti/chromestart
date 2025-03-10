@@ -44,7 +44,7 @@ const getProfiles = (variant: EVariant): Profile[] => {
   const variantPath = locations[osType].find((v) => v.name === variant).path;
 
   return fs
-      .readdirSync(variantPath)
+    .readdirSync(variantPath)
     .filter((f) => f !== 'System Profile' && fsExistsSync(path.join(variantPath, f, 'Preferences')))
     .map((p) => {
       const profileInfo = File.from(path.join(variantPath, p, 'Preferences')).load({ type: 'json' });
